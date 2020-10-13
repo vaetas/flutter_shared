@@ -2,7 +2,7 @@
 
 ## Install
 
-Put following code inside your `pubspec.yaml` file.
+Put the following code inside your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
@@ -13,9 +13,8 @@ dependencies:
 
 ## Lints
 
-Create an `analysis_options.yaml` file inside in the root of your project and put following line inside.
+Create an `analysis_options.yaml` file in the root of your project and put the following line inside.
 
 ```yaml
 include: package:flutter_shared/analysis_options.yaml
 ```
-

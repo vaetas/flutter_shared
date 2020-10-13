@@ -1,8 +1,8 @@
 name: flutter_shared
 description: Shared components for Flutter projects.
 version: 0.0.1
-author:
-homepage:
+author: Vojtech Pavlovsky
+homepage: https://github.com/vaetas/flutter_shared
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
