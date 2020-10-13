@@ -1,0 +1,38 @@
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  exclude: [build/**, lib/**.freezed.dart, lib/**.g.dart]
+  strong-mode:
+    # Type inference engine never implicitly casts to a more specific type.
+    implicit-casts: false
+
+    # Type inference engine never chooses the dynamic type when it can’t determine a static type.
+    implicit-dynamic: false
+  errors:
+    missing_required_param: warning
+    missing_return: warning
+
+linter:
+  rules:
+    - avoid_void_async
+    - avoid_unnecessary_containers
+    - avoid_returning_null_for_void
+    - always_use_package_imports
+    - comment_references
+    - cascade_invocations
+    - camel_case_types
+    - join_return_with_assignment
+    - prefer_final_locals
+    - prefer_void_to_null
+    - prefer_const_constructors
+    - prefer_mixin
+    - prefer_if_elements_to_conditional_expressions
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
+    - sort_child_properties_last
+    - sort_pub_dependencies
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - unnecessary_string_interpolations
+    - use_to_and_as_if_applicable
+    - use_function_type_syntax_for_parameters
