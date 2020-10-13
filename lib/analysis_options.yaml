@@ -2,16 +2,20 @@ include: package:pedantic/analysis_options.yaml
 
 analyzer:
   exclude: [build/**, lib/**.freezed.dart, lib/**.g.dart]
+
+  # See https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks
   strong-mode:
     # Type inference engine never implicitly casts to a more specific type.
     implicit-casts: false
 
     # Type inference engine never chooses the dynamic type when it can’t determine a static type.
     implicit-dynamic: false
+
   errors:
     missing_required_param: warning
     missing_return: warning
 
+# For all rules see https://dart-lang.github.io/linter/lints/
 linter:
   rules:
     - avoid_void_async
