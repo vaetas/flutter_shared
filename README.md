@@ -18,3 +18,21 @@ Create an `analysis_options.yaml` file in the root of your project and put the f
 ```yaml
 include: package:flutter_shared/analysis_options.yaml
 ```
+
+## Contents
+
+### Functional types
+
+#### Maybe
+
+#### Either
+
+### Widgets
+
+#### CircularLoader
+
+Basic Material design loader wrapped inside `Center` widget.
+
+### Mixins
+
+#### ScaffoldKeyMixin
