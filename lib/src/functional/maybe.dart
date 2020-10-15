@@ -8,8 +8,8 @@ abstract class Maybe<A> {
   bool get isNothing => !isValue;
 }
 
-class Value<A> extends Maybe<A> {
-  const Value(this.value);
+class Just<A> extends Maybe<A> {
+  const Just(this.value);
 
   final A value;
 
