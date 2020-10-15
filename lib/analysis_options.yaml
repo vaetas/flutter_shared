@@ -26,6 +26,7 @@ linter:
     - cascade_invocations
     - camel_case_types
     - join_return_with_assignment
+    - non_constant_identifier_names
     - prefer_final_locals
     - prefer_void_to_null
     - prefer_const_constructors
